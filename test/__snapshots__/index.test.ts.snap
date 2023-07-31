@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`creates snippets for a given model, position, and snippets map 1`] = `
+"<div class=\\"card\\">
+	<div class=\\"card-body\\">\${2}</div>
+</div>"
+`;
+
+exports[`creates snippets for a given model, position, and snippets map 2`] = `"<button class=\\"\${2:btn btn-primary}\\">\${5}</button>"`;
+
+exports[`expands user-defined snippets with complex placeholders 1`] = `
+"<div class=\\"card\\">
+	<div class=\\"card-body\\">\${2:btn} \${3}</div>
+</div>"
+`;
+
+exports[`expands user-defined snippets with no placeholders 1`] = `
+"<div class=\\"card\\">
+	<div class=\\"card-body\\">\${1}</div>
+</div>"
+`;
+
+exports[`expands user-defined snippets with placeholders 1`] = `
+"<div class=\\"card\\">
+	<div class=\\"card-body\\">\${2:lorem}</div>
+</div>"
+`;

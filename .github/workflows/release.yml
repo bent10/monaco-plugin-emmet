@@ -1,0 +1,35 @@
+name: Release
+on:
+  repository_dispatch:
+    types: [semantic-release]
+  push:
+    branches:
+      - main
+      - next
+      - next-major
+      - beta
+      - alpha
+      - '*.x'
+
+jobs:
+  release:
+    name: Releasing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18 # required by semantic-release
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
+      - run: npm test
+
+      - name: Installing release dependencies
+        run: |
+          npm i -D semantic-release @semantic-release/changelog @semantic-release/git
+      - name: Semantic release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
