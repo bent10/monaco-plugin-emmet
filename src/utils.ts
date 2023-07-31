@@ -38,7 +38,7 @@ export function autoComplete(
   const insertText = expand(abbreviation, {
     syntax,
     options: {
-      'output.field': (index, placeholder) =>
+      'output.field': (index: string, placeholder: string) =>
         placeholder ? `\${${index}:${placeholder}}` : `\${${index}}`
     }
   })

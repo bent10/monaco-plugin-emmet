@@ -102,7 +102,7 @@ export function createSnippets(
     const insertText = expand(abbr, {
       syntax,
       options: {
-        'output.field': (index, placeholder) =>
+        'output.field': (index: string, placeholder: string) =>
           placeholder ? `\${${index}:${placeholder}}` : `\${${index}}`
       }
     })
