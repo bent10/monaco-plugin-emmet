@@ -48,12 +48,10 @@
     "lint": "tsc --noEmit && eslint .",
     "format": "prettier --write ."
   },
-  "dependencies": {
-    "emmet": "^2.4.5"
-  },
   "devDependencies": {
     "doogu": "^3.2.6",
-    "monaco-editor": "^0.40.0"
+    "emmet": "^2.4.6",
+    "monaco-editor": "^0.41.0"
   },
   "peerDependencies": {
     "monaco-editor": ">=0.40.0"
