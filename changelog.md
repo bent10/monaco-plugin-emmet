@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/bent10/monaco-plugin-emmet/compare/v1.0.0...v1.0.1) (2023-08-04)
+
+
+### Bug Fixes
+
+* mv emmet to devDeps ([7a14d8e](https://github.com/bent10/monaco-plugin-emmet/commit/7a14d8eb9e51470d2ad3728e536c3b5adec997af))
+
 # 1.0.0 (2023-07-31)
 
 
