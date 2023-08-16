@@ -76,7 +76,7 @@ it('returns autoComplete suggestion for the given model and position', () => {
   expect(result!.range).toEqual({
     startLineNumber: 1,
     endLineNumber: 1,
-    startColumn: 1,
+    startColumn: 2,
     endColumn: 3
   })
 })
