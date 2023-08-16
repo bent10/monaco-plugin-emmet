@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/bent10/monaco-plugin-emmet/compare/v1.0.1...v1.0.2) (2023-08-16)
+
+
+### Bug Fixes
+
+* resolves auto suggestions ([eb7149a](https://github.com/bent10/monaco-plugin-emmet/commit/eb7149a846325a789d9a928b6c53b5d624f706d6))
+
 ## [1.0.1](https://github.com/bent10/monaco-plugin-emmet/compare/v1.0.0...v1.0.1) (2023-08-04)
 
 
