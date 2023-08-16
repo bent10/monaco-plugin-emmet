@@ -42,7 +42,7 @@
     "start": "npm run dev",
     "dev": "vite",
     "build": "vite build && npm run types",
-    "test": "vitest --ui",
+    "test": "vitest",
     "coverage": "vitest run --coverage",
     "types": "tsc src/*.ts -d --emitDeclarationOnly --outDir ./dist",
     "lint": "tsc --noEmit && eslint .",

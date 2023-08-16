@@ -13,7 +13,7 @@ import type { Range } from './types.js'
 export function autoComplete(
   model: monaco.editor.ITextModel,
   position: monaco.Position
-): monaco.languages.CompletionItem | null {
+): monaco.languages.CompletionItem | void {
   const { lineNumber, column } = position
   const syntax = model.getLanguageId()
 
@@ -26,7 +26,7 @@ export function autoComplete(
 
   const { abbreviation = '', start = 1 } = extract(inlineText) || {}
 
-  if (!abbreviation) return null
+  if (!abbreviation) return
 
   const range: Range = {
     startLineNumber: lineNumber,

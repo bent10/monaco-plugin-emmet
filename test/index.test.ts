@@ -53,14 +53,14 @@ it('creates snippets for a given model, position, and snippets map', () => {
   expect(snippets[1].insertText).toMatchSnapshot()
 })
 
-it('returns null for autoComplete if no abbreviation is found', () => {
+it('returns undefined for autoComplete if no abbreviation is found', () => {
   const model = {
     getValueInRange: () => '',
     getLanguageId: () => 'html'
   } as unknown as Model
   const position = { lineNumber: 1, column: 5 } as Position
   const result = autoComplete(model, position)
-  expect(result).toBeNull()
+  expect(result).toBeUndefined()
 })
 
 it('returns autoComplete suggestion for the given model and position', () => {
