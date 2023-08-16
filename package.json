@@ -40,7 +40,7 @@
   ],
   "scripts": {
     "start": "npm run dev",
-    "dev": "vite build --watch & vite",
+    "dev": "vite",
     "build": "vite build && npm run types",
     "test": "vitest --ui",
     "coverage": "vitest run --coverage",
