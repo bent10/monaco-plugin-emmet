@@ -18,9 +18,9 @@ export function autoComplete(
   const syntax = model.getLanguageId()
 
   const inlineText = model.getValueInRange({
-    startLineNumber: 1,
-    startColumn: 1,
+    startLineNumber: lineNumber,
     endLineNumber: lineNumber,
+    startColumn: 1,
     endColumn: column
   })
 
@@ -31,7 +31,7 @@ export function autoComplete(
   const range: Range = {
     startLineNumber: lineNumber,
     endLineNumber: lineNumber,
-    startColumn: start,
+    startColumn: start + 1,
     endColumn: column
   }
 
