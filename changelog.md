@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/bent10/monaco-plugin-emmet/compare/v1.0.2...v1.0.3) (2023-08-16)
+
+
+### Bug Fixes
+
+* resolves completion `range` ([630bc10](https://github.com/bent10/monaco-plugin-emmet/commit/630bc10f403c4ba16e167c5a017e3ecab5346015))
+
 ## [1.0.2](https://github.com/bent10/monaco-plugin-emmet/compare/v1.0.1...v1.0.2) (2023-08-16)
 
 
