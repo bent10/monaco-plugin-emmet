@@ -51,7 +51,7 @@
   "devDependencies": {
     "doogu": "3.2.7",
     "emmet": "2.4.6",
-    "monaco-editor": "0.41.0"
+    "monaco-editor": "0.43.0"
   },
   "peerDependencies": {
     "monaco-editor": ">=0.40.0"
