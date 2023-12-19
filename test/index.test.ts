@@ -1,3 +1,5 @@
+/// <reference types="vitest/globals" />
+
 import { registerEmmet, createSnippets } from '../src/index.js'
 import { autoComplete } from '../src/utils.js'
 
