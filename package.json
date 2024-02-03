@@ -49,9 +49,9 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "doogu": "3.2.10",
+    "doogu": "3.2.11",
     "emmet": "2.4.6",
-    "jsdom": "23.2.0",
+    "jsdom": "24.0.0",
     "monaco-editor": "0.45.0"
   },
   "peerDependencies": {
