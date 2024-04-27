@@ -52,7 +52,7 @@
     "doogu": "3.2.13",
     "emmet": "2.4.7",
     "jsdom": "24.0.0",
-    "monaco-editor": "0.47.0"
+    "monaco-editor": "0.48.0"
   },
   "peerDependencies": {
     "monaco-editor": ">=0.40.0"
