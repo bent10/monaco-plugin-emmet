@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/bent10/monaco-plugin-emmet/compare/v1.0.3...v1.0.4) (2024-08-28)
+
+
+### Bug Fixes
+
+* **deps:** update `doogu` to `v4.0.4` ([c0ccdcf](https://github.com/bent10/monaco-plugin-emmet/commit/c0ccdcf83027eb04033362f42557210fdfa4bc0f))
+
 ## [1.0.3](https://github.com/bent10/monaco-plugin-emmet/compare/v1.0.2...v1.0.3) (2023-08-16)
 
 
