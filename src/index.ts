@@ -45,7 +45,10 @@ export function registerEmmet(
         )
         // expand abbreviation
         const completion = autoComplete(model, position)
-        completion && suggestions.push(completion)
+
+        if (completion) {
+          suggestions.push(completion)
+        }
 
         return {
           suggestions

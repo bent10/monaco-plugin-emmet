@@ -19,9 +19,6 @@
     "autocomplete",
     "suggestion"
   ],
-  "engines": {
-    "node": "^12.22 || ^14.17 || >=16.10.0"
-  },
   "type": "module",
   "main": "dist/index.umd.cjs",
   "module": "dist/index.js",
@@ -49,10 +46,10 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "doogu": "3.2.13",
+    "doogu": "4.0.4",
     "emmet": "2.4.7",
-    "jsdom": "24.1.1",
-    "monaco-editor": "0.50.0"
+    "jsdom": "25.0.0",
+    "monaco-editor": "0.51.0"
   },
   "peerDependencies": {
     "monaco-editor": ">=0.40.0"
@@ -62,10 +59,7 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "eslintConfig": {
-    "extends": "./node_modules/doogu/eslint"
-  },
-  "prettier": "doogu/prettier.json",
+  "prettier": "doogu/prettier.config.js",
   "release": {
     "extends": "doogu/release.config.js"
   }
