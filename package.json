@@ -46,7 +46,7 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "doogu": "4.0.4",
+    "doogu": "4.1.0",
     "emmet": "2.4.7",
     "jsdom": "25.0.0",
     "monaco-editor": "0.51.0"
