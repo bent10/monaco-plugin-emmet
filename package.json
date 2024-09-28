@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "doogu": "4.1.0",
-    "emmet": "2.4.8",
+    "emmet": "2.4.11",
     "jsdom": "25.0.0",
     "monaco-editor": "0.52.0"
   },
