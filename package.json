@@ -48,7 +48,7 @@
   "devDependencies": {
     "doogu": "4.1.2",
     "emmet": "2.4.11",
-    "jsdom": "26.0.0",
+    "jsdom": "26.1.0",
     "monaco-editor": "0.52.2"
   },
   "peerDependencies": {
